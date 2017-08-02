@@ -5,12 +5,12 @@ Gem::Specification.new do |s|
   s.summary     = 'Spree integration with Paytm.'
   s.description = 'Spree integration with Paytm.'
 
-  s.author    = 'Santosh Singh'
-  s.email     = 'santosh.singh@freshmonk.com'
-  s.homepage  = 'https://github.com/isantoshsingh/spree_paytm'
+  s.author    = 'Nishant Sinha'
+  s.email     = 'nishant01@gmail.com'
+  s.homepage  = 'https://github.com/nishant01/spree_paytm'
 
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0'
+  s.add_dependency 'solidus_core', '~> 1.4'
 end
