@@ -6,7 +6,7 @@ Paytm payment gateway integration for spree
 
 1. Add this extension to your Gemfile with this line:
 
-        gem 'spree_paytm', :github => 'isantoshsingh/spree_paytm'
+        gem 'spree_paytm', :github => 'nishant01/spree_paytm'
 
 2. Install the gem using Bundler:
 
