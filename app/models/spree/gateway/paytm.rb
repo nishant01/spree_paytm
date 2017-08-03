@@ -39,13 +39,13 @@ module Spree
     end
 
     def txnid(order)
-      order.id.to_s + order.number.to_s
+      order.number.to_s
     end
 
     def source_required?
       false
     end
-    
+
     def refund_url
       'https://' + domain + '/oltp/HANDLER_INTERNAL/REFUND'
     end
